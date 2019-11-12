@@ -23,7 +23,7 @@ body {
 
 /* Create three equal columns that floats next to each other */
 .column {
-  float: left;
+  float: center;
   width: 33.33%;
   padding: 10px;
   height: 300px; /* Should be removed. Only for demonstration */
@@ -73,3 +73,32 @@ body {
 
 </body>
 </html>
+
+div {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 26px;
+  color: #000000;
+  background-color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  position: fixed;
+  bottom: 10px;
+  color: #ffffff;
+}
+main{
+  text-align: center;
+  
+}
