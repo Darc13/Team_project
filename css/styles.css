@@ -120,18 +120,26 @@ h2{
   text-align: center;
 }
 
-div.container {
+div.container2{
   background-color: rgb(0,0,0);
   color: rgb(255,255,255);
   justify-content: center;
   align-items: center;
   text-align: center;
+  align: center;
+
 
 }
 button{
-  color: white;
+  color: none;
+  border: none;
+  font-size: 72px;
 }
 
 div.row{
   text-align: center;
+}
+
+div.coursel-item{
+  width: 80%;
 }
