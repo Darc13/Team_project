@@ -160,6 +160,7 @@ background-position-x: center;
     background-origin: initial;
     background-clip: initial;
     padding: 0px 0px 0px 0px;
+    height: 100vh;
   }
 
 h1.header1{
@@ -170,4 +171,23 @@ h1.header1{
 p.header2{
   color: white;
   font-size:20px
+}
+
+div.recipes{
+  padding: 10px 10px 10px 10px;
+  height: 100vh;
+}
+
+nav.navbar2{
+  color: white;
+  background-color: white;
+  opacity: 0.5;
+}
+
+div.about{
+  color: black;
+  opacity: 0.8;
+  background-color: white;
+  padding: 40px 40px 40px 40px;
+  text-align: center;
 }
