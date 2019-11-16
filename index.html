@@ -55,13 +55,13 @@
 				 	</ol>
 				  	<div class="carousel-inner">
 				    	<div class="carousel-item active">
-				          <button onclick="reveal_rum()">RUM</button>
+				          <button onclick="cancel_vodka()">RUM</button>
 				    	</div>
 					    <div class="carousel-item">
 					     	<button onclick="reveal_vodka()">VODKA</button>
 					    </div>
 					    <div class="carousel-item">
-					      	<button onclick="reveal_gin()">GIN</button>
+					      	<button onclick="reveal_gin(); cancel_vodka">GIN</button>
 					    </div>
 					</div>
 					<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
@@ -96,7 +96,25 @@
       </div>
     </div>
       <!-- Add another row here --><!-- /.container -->
-
+      <div id="vodka">
+          <div class="row" >
+            <div class="col-sm">
+              <!-- add an image here -->
+              <img src="./images/Long Island Iced Tea.jpg" alt="Long island iced tea" width="200px" height="300px"><br>
+              Long Island Iced Tea
+            </div>
+            <div class="col-sm">
+              <!-- add an image here -->
+              <img src="./images/Sex On The Beach.jpg" alt="Sex on the beach" width="200px" height="300px"><br>
+              Sex on the Beach
+            </div>
+            <div class="col-sm">
+              <!-- add an image here -->
+              <img src="./images/Passionfruit Martini.jpg" alt="A passionfruit martini" width="200px" height="300px"><br>
+              Passionfruit Martini
+            </div>
+          </div>
+        </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

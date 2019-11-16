@@ -131,3 +131,7 @@ div.container {
 button{
   color: white;
 }
+
+div.row{
+  text-align: center;
+}
