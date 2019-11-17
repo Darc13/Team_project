@@ -175,7 +175,6 @@ p.header2{
 
 div.recipes{
   padding: 10px 10px 10px 10px;
-  height: 100vh;
 }
 
 nav.navbar2{
@@ -203,4 +202,11 @@ font-size: 44px !important;
 
 a.icon{
   padding: 10px 10px 10px 10px;
+}
+
+div.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
