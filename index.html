@@ -1,11 +1,15 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
     <meta name="author" content="">
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=n">
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
     <title>Cocktail Crazy</title>
 
     <!-- ADD BOOTSTRAP CORE HERE!!!! -->
@@ -17,52 +21,142 @@
   </head>
 
   <body>
-
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+            <li class="nav-item active">
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
+            </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
         </ul>
       </div>
     </nav>
-
-    <main role="main" class="container">
-
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">This is the home page</p>
-      </div>
-
+<div class="background">
+    <div>
+      <br><br>
+    <h1 class="header1">Cocktail Recipes</h1>
+    <p class="header2">Scroll to choose your base</p>
+    </div>
+    <br>
+<div class="container2">
+  <div class="inner current">
+				<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+				  	<div class="carousel-inner">
+				    	<div class="carousel-item active">
+				          <button onclick="reveal_rum()">RUM</button>
+				    	</div>
+					    <div class="carousel-item">
+					     	<button onclick="reveal_vodka()">VODKA</button>
+					    </div>
+					    <div class="carousel-item">
+					      	<button onclick="reveal_gin()">GIN</button>
+					    </div>
+					</div>
+					<a class="carousel-control-prev" href="#carousel" width="50%" role="button" data-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					 </a>
+				  	<a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+				    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				   		<span class="sr-only">Next</span>
+				 	</a>
+				</div>
+        </div>
+</div>
+</div>
   <!-- columns -->
+<p>
+<div class="container">
+  <div id="gin">
       <div class="row">
         <div class="col-sm">
-          <!-- add an image here -->
-          <img src="./images/Elderflower Collins.jpg" alt="An elderflower collins" width="200px" height="300px"><br>
-          Elderflower Collins
+          <a href="./gin.html#eld_col">
+            <img src="./images/Elderflower Collins.jpg" alt="An elderflower collins" width="200px" height="300px">
+          </a><br>
+          <a href="./gin.html#eld_col">Elderflower Collins</a>
         </div>
         <div class="col-sm">
-          <!-- add an image here -->
-          <img src="./images/Gin and Tonic.jpg" alt="A G&T" width="200px" height="300px"><br>
+          <a href="./gin.html#gt">
+            <img src="./images/Gin and Tonic.jpg" alt="A G&T" width="200px" height="300px"></a>
+            <br>
+            <a href="./gin.html#gt">
           Gin and Tonic
+          <a href="./gin.html#eld_col">
         </div>
         <div class="col-sm">
-          <!-- add an image here -->
-          <img src="./images/Negroni.jpg" alt="Negroni" width="200px" height="300px"><br>
-          Negroni
+          <a href="./gin.html#negroni">
+          <img src="./images/Negroni.jpg" alt="Negroni" width="200px" height="300px"></a>
+          <br>
+        <a href="./gin.html#negroni">  Negroni</a>
         </div>
       </div>
+      </div>
+  </div>
+      <!-- Add another row here --><!-- /.container -->
+<div class="container">
+      <div id="vodka">
+          <div class="row" >
+            <div class="col-sm">
+              <!-- add an image here -->
+              <a href="./vodka.html#liit">
+              <img src="./images/Long Island Iced Tea.jpg" alt="Long island iced tea" width="200px" height="300px"></a>
+              <br>
+            <a href="./vodka.html#liit">  Long Island Iced Tea </a>
+            </div>
+            <div class="col-sm">
+              <!-- add an image here -->
+              <a href="./vodka.html#sotb">
+              <img src="./images/Sex On The Beach.jpg" alt="Sex on the beach" width="200px" height="300px"></a>
+              <br>
+              <a href="./vodka.html#sotb">
+              Sex on the Beach</a>
+            </div>
+            <div class="col-sm">
+              <!-- add an image here -->
+              <a href="./vodka.html#pfm">
+              <img src="./images/Passionfruit Martini.jpg" alt="A passionfruit martini" width="200px" height="300px"></a>
+              <br>
+              <a href="./vodka.html#pfm">
+              Passionfruit Martini</a>
+            </div>
+          </div>
+        </div>
+        </div>
 
-      <!-- Add another row here -->
-    </main><!-- /.container -->
+
+        <div class="container">
+          <div id="rum">
+              <div class="row">
+                <div class="col-sm">
+                  <a href="./rum.html#rp">
+                  <img src="./images/Rum Punch.jpg" alt="rum punch" width="200px" height="300px"></a>
+                  <br>
+                  <a href="./rum.html#rp">
+                  Rum Punch</a>
+                </div>
+                <div class="col-sm">
+                  <a href="./rum.html#pc">
+                    <img src="./images/PC.webp" alt="A Pina colada" width="200px" height="300px"></a>
+                    <br>
+                    <a href="./rum.html#pc">
+                  Pina Colada</a>
+                </div>
+                <div class="col-sm">
+                  <a href="./rum.html#mojito">
+                  <img src="./images/Mojito.png" alt="Mojito" width="200px" height="300px"></a>
+                  <br>
+                  <a href="./rum.html#mojito">
+                    Mojito </a>
+                </div>
+              </div>
+              </div>
+          </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
