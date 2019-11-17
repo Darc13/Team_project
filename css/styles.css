@@ -115,7 +115,6 @@ h2{
   border: none;
   font-size: 26px;
   color: #000000;
-  background-color: #000000;
   font-weight: bold;
   text-align: center;
 }
@@ -142,7 +141,7 @@ button{
   width: 100%;
   margin: 0 auto;
   border-radius: 5px;
-  padding: 100px 40px 100px 40px;
+  padding: 150px 40px 150px 40px;
   font-size: 72px;
 }
 
@@ -166,17 +165,18 @@ background-position-x: center;
     background-origin: initial;
     background-clip: initial;
     padding: 0px 0px 0px 0px;
-    height: 100vh;
+    height: 120vh;
   }
 
 h1.header1{
   color: white;
-  font-size: 50px;
+  font-size: 70px;
 }
 
-p.header2{
+h2.header2{
   color: white;
-  font-size:20px
+  font-size:20px;
+  background-color: none;
 }
 
 div.recipes{
