@@ -86,19 +86,20 @@ h1 {
   padding: 10px 30px;
   border-radius: 5px;
   border: none;
-  font-size: 50px;
+  font-size: 80px;
   font-weight: bold;
   text-align: center;
-  color: white;
+  color: black;
 }
 
 p {
-  padding: 10px 30px;
-  border-radius: 5px;
+  padding: 0px 0px;
+  border-radius: 0px;
   border: none;
   font-size: 20px;
   color: #000000;
   text-align: center;
+  margin-top: 10px;
 }
 main{
   text-align: center;
@@ -136,7 +137,7 @@ background-size: cover;
 button{
   font-size: 72px;
   background-color: #ffffff;
-  opacity: 0.4;
+  opacity: 0.5;
   color: black;
   width: 100%;
   margin: 0 auto;
@@ -144,6 +145,11 @@ button{
   padding: 100px 40px 100px 40px;
   font-size: 72px;
 }
+
+button.butt{
+  background-color: red;
+}
+
 
 div.row{
   text-align: center;
@@ -203,4 +209,18 @@ font-size: 44px !important;
 
 a.icon{
   padding: 10px 10px 10px 10px;
+}
+
+button.btn-outline-dark{
+  opacity: 1;
+  background-color: white;
+}
+
+.btn:not(:disabled):not(.disabled) {
+color: white;
+background-color: white;
+}
+
+.btn{
+  background-color: red;
 }
