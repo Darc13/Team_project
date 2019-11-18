@@ -123,7 +123,7 @@ background-position-x: center;
     background-attachment: scroll;
     background-origin: initial;
     background-clip: initial;
-    padding: 0px 0px 0px 0px;
+    padding: 0px;
     height: 110vh;
   }
 
@@ -167,7 +167,7 @@ font-size: 44px !important;
 }
 
 a.icon{
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
 }
 
 button.btn-outline-dark{
